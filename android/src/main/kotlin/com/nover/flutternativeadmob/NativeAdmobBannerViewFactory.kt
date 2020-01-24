@@ -234,8 +234,6 @@ class NativeAdmobBannerViewHoder @JvmOverloads constructor(
     val bgColor: Int
     when (style) {
       BannerStyle.dark -> {
-        setBackgroundColor(Color.parseColor("#161E43"))
-
         adHeadline.setTextColor(Color.WHITE)
         adAdvertiser.setTextColor(Color.WHITE)
         adBody.setTextColor(Color.LTGRAY)
@@ -243,8 +241,6 @@ class NativeAdmobBannerViewHoder @JvmOverloads constructor(
         adPrice.setTextColor(Color.WHITE)
       }
       BannerStyle.light -> {
-        setBackgroundColor(Color.parseColor("#161E43"))
-
         adHeadline.setTextColor(Color.BLACK)
         adAdvertiser.setTextColor(Color.BLACK)
         adBody.setTextColor(Color.GRAY)
