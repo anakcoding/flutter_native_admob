@@ -243,7 +243,7 @@ class NativeAdmobBannerViewHoder @JvmOverloads constructor(
         adPrice.setTextColor(Color.WHITE)
       }
       BannerStyle.light -> {
-        setBackgroundColor(Color.parseColor("#161E43"))
+        setBackgroundColor(Color.parseColor("#FAFAFA"))
         
         adHeadline.setTextColor(Color.BLACK)
         adAdvertiser.setTextColor(Color.BLACK)
